@@ -157,6 +157,7 @@
             this.rbMale.Name = "rbMale";
             this.rbMale.Size = new System.Drawing.Size(57, 19);
             this.rbMale.TabIndex = 12;
+            this.rbMale.TabStop = true;
             this.rbMale.Text = "Muski";
             this.rbMale.UseVisualStyleBackColor = true;
             // 
@@ -191,6 +192,7 @@
             this.Controls.Add(this.btnShow);
             this.Name = "Form1";
             this.Text = "Podaci o studentu";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

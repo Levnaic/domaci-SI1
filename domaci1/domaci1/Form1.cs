@@ -5,6 +5,13 @@ namespace domaci1
         public Form1()
         {
             InitializeComponent();
+            cbxYearOfStudy.Items.Add("prva");
+            cbxYearOfStudy.Items.Add("druga");
+            cbxYearOfStudy.Items.Add("treca");
+            cbxYearOfStudy.Items.Add("cetvrta");
+            cbxYearOfStudy.SelectedItem = cbxYearOfStudy.Items[0];
+
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -42,13 +49,16 @@ namespace domaci1
                 gender = rbWoman.Text;
             }
 
-            MessageBox.Show("Student: " + firstName + " " + lastName + "\n" +
-        "Godina rodjenja: " + year + "\n" +
-        "Pol: " + gender + "\n" +
-        "Godina studija: " + yearOfStudy + "\n" +
-        "Smer: " + course);
+            MessageBox.Show("StudentL:" + firstName + " " + lastName +
+                "\n" + "Godina rodjenja: " + year +
+                "\n" + "Pol: " + gender +
+                "\n" + "Godina studija: " + yearOfStudy +
+                "\n" + "Smer: " + course);
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
-}
 }
