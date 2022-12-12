@@ -1,0 +1,17 @@
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\bin\Debug\net6.0-windows\doamci3.exe
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\bin\Debug\net6.0-windows\doamci3.deps.json
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\bin\Debug\net6.0-windows\doamci3.runtimeconfig.json
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\bin\Debug\net6.0-windows\doamci3.dll
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\bin\Debug\net6.0-windows\doamci3.pdb
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\doamci3.csproj.AssemblyReference.cache
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\doamci3.Form1.resources
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\doamci3.csproj.GenerateResource.cache
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\doamci3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\doamci3.AssemblyInfoInputs.cache
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\doamci3.AssemblyInfo.cs
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\doamci3.csproj.CoreCompileInputs.cache
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\doamci3.dll
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\refint\doamci3.dll
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\doamci3.pdb
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\doamci3.genruntimeconfig.cache
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci3\doamci3\obj\Debug\net6.0-windows\ref\doamci3.dll
