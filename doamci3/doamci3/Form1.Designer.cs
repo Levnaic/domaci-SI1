@@ -41,12 +41,12 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btnMin = new System.Windows.Forms.Button();
             this.btnSab = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.btnMno = new System.Windows.Forms.Button();
             this.btnJed = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.btnDelj = new System.Windows.Forms.Button();
             this.btnSqrt = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.btnRec = new System.Windows.Forms.Button();
+            this.btnDec = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtIspis
@@ -64,6 +64,7 @@
             this.btn1.TabIndex = 1;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btn2
             // 
@@ -164,14 +165,14 @@
             this.btnSab.Text = "+";
             this.btnSab.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // btnMno
             // 
-            this.button13.Location = new System.Drawing.Point(348, 157);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 46);
-            this.button13.TabIndex = 14;
-            this.button13.Text = "*";
-            this.button13.UseVisualStyleBackColor = true;
+            this.btnMno.Location = new System.Drawing.Point(348, 157);
+            this.btnMno.Name = "btnMno";
+            this.btnMno.Size = new System.Drawing.Size(75, 46);
+            this.btnMno.TabIndex = 14;
+            this.btnMno.Text = "*";
+            this.btnMno.UseVisualStyleBackColor = true;
             // 
             // btnJed
             // 
@@ -181,15 +182,16 @@
             this.btnJed.TabIndex = 15;
             this.btnJed.Text = "=";
             this.btnJed.UseVisualStyleBackColor = true;
+            this.btnJed.Click += new System.EventHandler(this.btnJed_Click);
             // 
-            // button15
+            // btnDelj
             // 
-            this.button15.Location = new System.Drawing.Point(348, 209);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 46);
-            this.button15.TabIndex = 16;
-            this.button15.Text = "/";
-            this.button15.UseVisualStyleBackColor = true;
+            this.btnDelj.Location = new System.Drawing.Point(348, 209);
+            this.btnDelj.Name = "btnDelj";
+            this.btnDelj.Size = new System.Drawing.Size(75, 46);
+            this.btnDelj.TabIndex = 16;
+            this.btnDelj.Text = "/";
+            this.btnDelj.UseVisualStyleBackColor = true;
             // 
             // btnSqrt
             // 
@@ -201,35 +203,35 @@
             this.btnSqrt.UseVisualStyleBackColor = true;
             this.btnSqrt.Click += new System.EventHandler(this.button16_Click);
             // 
-            // button17
+            // btnRec
             // 
-            this.button17.Location = new System.Drawing.Point(348, 261);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 46);
-            this.button17.TabIndex = 18;
-            this.button17.Text = "rec";
-            this.button17.UseVisualStyleBackColor = true;
+            this.btnRec.Location = new System.Drawing.Point(348, 261);
+            this.btnRec.Name = "btnRec";
+            this.btnRec.Size = new System.Drawing.Size(75, 46);
+            this.btnRec.TabIndex = 18;
+            this.btnRec.Text = "rec";
+            this.btnRec.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // btnDec
             // 
-            this.button18.Location = new System.Drawing.Point(267, 313);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 46);
-            this.button18.TabIndex = 19;
-            this.button18.Text = ".";
-            this.button18.UseVisualStyleBackColor = true;
+            this.btnDec.Location = new System.Drawing.Point(267, 313);
+            this.btnDec.Name = "btnDec";
+            this.btnDec.Size = new System.Drawing.Size(75, 46);
+            this.btnDec.TabIndex = 19;
+            this.btnDec.Text = ".";
+            this.btnDec.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(457, 450);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
+            this.Controls.Add(this.btnDec);
+            this.Controls.Add(this.btnRec);
             this.Controls.Add(this.btnSqrt);
-            this.Controls.Add(this.button15);
+            this.Controls.Add(this.btnDelj);
             this.Controls.Add(this.btnJed);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.btnMno);
             this.Controls.Add(this.btnSab);
             this.Controls.Add(this.btnMin);
             this.Controls.Add(this.btn0);
@@ -266,11 +268,11 @@
         private Button btn0;
         private Button btnMin;
         private Button btnSab;
-        private Button button13;
+        private Button btnMno;
         private Button btnJed;
-        private Button button15;
+        private Button btnDelj;
         private Button btnSqrt;
-        private Button button17;
-        private Button button18;
+        private Button btnRec;
+        private Button btnDec;
     }
 }
