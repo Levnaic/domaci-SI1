@@ -1,0 +1,7 @@
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci2\doamci2\obj\Debug\net6.0-windows\doamci2.csproj.AssemblyReference.cache
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci2\doamci2\obj\Debug\net6.0-windows\doamci2.Form1.resources
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci2\doamci2\obj\Debug\net6.0-windows\doamci2.csproj.GenerateResource.cache
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci2\doamci2\obj\Debug\net6.0-windows\doamci2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci2\doamci2\obj\Debug\net6.0-windows\doamci2.AssemblyInfoInputs.cache
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci2\doamci2\obj\Debug\net6.0-windows\doamci2.AssemblyInfo.cs
+C:\Users\Milijana\Desktop\L\faks\si1\domaci\izrada_domaceg\doamci2\doamci2\obj\Debug\net6.0-windows\doamci2.csproj.CoreCompileInputs.cache
