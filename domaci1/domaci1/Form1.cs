@@ -49,7 +49,7 @@ namespace domaci1
                 gender = rbWoman.Text;
             }
 
-            MessageBox.Show("StudentL:" + firstName + " " + lastName +
+            MessageBox.Show("Student:" + firstName + " " + lastName +
                 "\n" + "Godina rodjenja: " + year +
                 "\n" + "Pol: " + gender +
                 "\n" + "Godina studija: " + yearOfStudy +
