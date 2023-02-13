@@ -160,6 +160,7 @@ namespace Domaci3
                 default:
                     txtDisplay.Text = "Niste dobro uneli vrednosti";
                     break;
+
             }
 
             resultIsOn = true;
