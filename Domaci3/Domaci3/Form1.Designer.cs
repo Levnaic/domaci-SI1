@@ -235,6 +235,7 @@
             this.btnEqu.TabIndex = 19;
             this.btnEqu.Text = "=";
             this.btnEqu.UseVisualStyleBackColor = true;
+            this.btnEqu.Click += new System.EventHandler(this.btnEqu_Click);
             // 
             // btnSqr
             // 

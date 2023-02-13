@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Milijana\\.nuget\\packages\\": {}
+    "C:\\Users\\L\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Milijana\\Desktop\\L\\faks\\si1\\domaci\\izrada_domaceg\\Domaci3\\Domaci3\\Domaci3.csproj",
+      "projectUniqueName": "C:\\Users\\L\\Source\\Repos\\Levnaic\\domaci-SI1\\Domaci3\\Domaci3\\Domaci3.csproj",
       "projectName": "Domaci3",
-      "projectPath": "C:\\Users\\Milijana\\Desktop\\L\\faks\\si1\\domaci\\izrada_domaceg\\Domaci3\\Domaci3\\Domaci3.csproj",
-      "packagesPath": "C:\\Users\\Milijana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Milijana\\Desktop\\L\\faks\\si1\\domaci\\izrada_domaceg\\Domaci3\\Domaci3\\obj\\",
+      "projectPath": "C:\\Users\\L\\Source\\Repos\\Levnaic\\domaci-SI1\\Domaci3\\Domaci3\\Domaci3.csproj",
+      "packagesPath": "C:\\Users\\L\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\L\\Source\\Repos\\Levnaic\\domaci-SI1\\Domaci3\\Domaci3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Milijana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\L\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

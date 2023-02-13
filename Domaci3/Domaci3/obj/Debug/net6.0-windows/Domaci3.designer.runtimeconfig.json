@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Milijana\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Milijana\\.nuget\\packages"
+      "C:\\Users\\L\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\L\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
