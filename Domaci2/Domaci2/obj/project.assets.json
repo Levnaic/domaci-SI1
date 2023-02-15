@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\L\\Source\\Repos\\Levnaic\\domaci-SI1\\Domaci2\\Domaci2\\Domaci2.csproj",
+      "projectUniqueName": "C:\\Users\\L\\source\\repos\\Levnaic\\domaci-SI1\\Domaci2\\Domaci2\\Domaci2.csproj",
       "projectName": "Domaci2",
-      "projectPath": "C:\\Users\\L\\Source\\Repos\\Levnaic\\domaci-SI1\\Domaci2\\Domaci2\\Domaci2.csproj",
+      "projectPath": "C:\\Users\\L\\source\\repos\\Levnaic\\domaci-SI1\\Domaci2\\Domaci2\\Domaci2.csproj",
       "packagesPath": "C:\\Users\\L\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\L\\Source\\Repos\\Levnaic\\domaci-SI1\\Domaci2\\Domaci2\\obj\\",
+      "outputPath": "C:\\Users\\L\\source\\repos\\Levnaic\\domaci-SI1\\Domaci2\\Domaci2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\L\\AppData\\Roaming\\NuGet\\NuGet.Config",
