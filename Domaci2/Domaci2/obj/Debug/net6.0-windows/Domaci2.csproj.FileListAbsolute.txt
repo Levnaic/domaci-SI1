@@ -1,0 +1,17 @@
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\bin\Debug\net6.0-windows\Domaci2.exe
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\bin\Debug\net6.0-windows\Domaci2.deps.json
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\bin\Debug\net6.0-windows\Domaci2.runtimeconfig.json
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\bin\Debug\net6.0-windows\Domaci2.dll
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\bin\Debug\net6.0-windows\Domaci2.pdb
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\Domaci2.csproj.AssemblyReference.cache
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\Domaci2.racunanjeTrougla.resources
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\Domaci2.csproj.GenerateResource.cache
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\Domaci2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\Domaci2.AssemblyInfoInputs.cache
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\Domaci2.AssemblyInfo.cs
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\Domaci2.csproj.CoreCompileInputs.cache
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\Domaci2.dll
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\refint\Domaci2.dll
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\Domaci2.pdb
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\Domaci2.genruntimeconfig.cache
+C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci2\Domaci2\obj\Debug\net6.0-windows\ref\Domaci2.dll
