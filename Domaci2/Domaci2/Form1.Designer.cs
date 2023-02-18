@@ -51,6 +51,7 @@
             this.rbRaznostranicni.TabStop = true;
             this.rbRaznostranicni.Text = "Raznostranicni";
             this.rbRaznostranicni.UseVisualStyleBackColor = true;
+            this.rbRaznostranicni.CheckedChanged += new System.EventHandler(this.rbRaznostranicni_CheckedChanged);
             // 
             // rbJednakokraki
             // 
@@ -61,6 +62,7 @@
             this.rbJednakokraki.TabIndex = 1;
             this.rbJednakokraki.Text = "Jednakokraki";
             this.rbJednakokraki.UseVisualStyleBackColor = true;
+            this.rbJednakokraki.CheckedChanged += new System.EventHandler(this.rbJednakokraki_CheckedChanged);
             // 
             // rbJednakostranicni
             // 
@@ -71,24 +73,25 @@
             this.rbJednakostranicni.TabIndex = 2;
             this.rbJednakostranicni.Text = "Jednakostranicni";
             this.rbJednakostranicni.UseVisualStyleBackColor = true;
+            this.rbJednakostranicni.CheckedChanged += new System.EventHandler(this.rbJednakostranicni_CheckedChanged);
             // 
             // txtA
             // 
-            this.txtA.Location = new System.Drawing.Point(128, 106);
+            this.txtA.Location = new System.Drawing.Point(170, 106);
             this.txtA.Name = "txtA";
             this.txtA.Size = new System.Drawing.Size(100, 23);
             this.txtA.TabIndex = 3;
             // 
             // txtB
             // 
-            this.txtB.Location = new System.Drawing.Point(128, 135);
+            this.txtB.Location = new System.Drawing.Point(170, 135);
             this.txtB.Name = "txtB";
             this.txtB.Size = new System.Drawing.Size(100, 23);
             this.txtB.TabIndex = 4;
             // 
             // txtC
             // 
-            this.txtC.Location = new System.Drawing.Point(128, 164);
+            this.txtC.Location = new System.Drawing.Point(170, 164);
             this.txtC.Name = "txtC";
             this.txtC.Size = new System.Drawing.Size(100, 23);
             this.txtC.TabIndex = 5;
@@ -128,6 +131,7 @@
             this.btnRacunaj.TabIndex = 9;
             this.btnRacunaj.Text = "Racunaj";
             this.btnRacunaj.UseVisualStyleBackColor = true;
+            this.btnRacunaj.Click += new System.EventHandler(this.btnRacunaj_Click);
             // 
             // racunanjeTrougla
             // 
