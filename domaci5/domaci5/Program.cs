@@ -1,4 +1,4 @@
-namespace domaci5
+namespace Domaci5
 {
     internal static class Program
     {

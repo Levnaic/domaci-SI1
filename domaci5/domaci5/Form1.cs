@@ -1,4 +1,4 @@
-namespace domaci5
+namespace Domaci5
 {
     public partial class Form1 : Form
     {
