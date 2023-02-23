@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Milijana\\Desktop\\L\\faks\\si1\\domaci\\izrada_domaceg\\domaci1\\domaci1\\domaci1.csproj": {}
+    "C:\\Users\\L\\source\\repos\\Levnaic\\domaci-SI1\\domaci1\\domaci1\\domaci1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Milijana\\Desktop\\L\\faks\\si1\\domaci\\izrada_domaceg\\domaci1\\domaci1\\domaci1.csproj": {
+    "C:\\Users\\L\\source\\repos\\Levnaic\\domaci-SI1\\domaci1\\domaci1\\domaci1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milijana\\Desktop\\L\\faks\\si1\\domaci\\izrada_domaceg\\domaci1\\domaci1\\domaci1.csproj",
+        "projectUniqueName": "C:\\Users\\L\\source\\repos\\Levnaic\\domaci-SI1\\domaci1\\domaci1\\domaci1.csproj",
         "projectName": "domaci1",
-        "projectPath": "C:\\Users\\Milijana\\Desktop\\L\\faks\\si1\\domaci\\izrada_domaceg\\domaci1\\domaci1\\domaci1.csproj",
-        "packagesPath": "C:\\Users\\Milijana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Milijana\\Desktop\\L\\faks\\si1\\domaci\\izrada_domaceg\\domaci1\\domaci1\\obj\\",
+        "projectPath": "C:\\Users\\L\\source\\repos\\Levnaic\\domaci-SI1\\domaci1\\domaci1\\domaci1.csproj",
+        "packagesPath": "C:\\Users\\L\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\L\\source\\repos\\Levnaic\\domaci-SI1\\domaci1\\domaci1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Milijana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\L\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
