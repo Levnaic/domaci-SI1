@@ -135,6 +135,7 @@
             this.btnDodaj.TabIndex = 10;
             this.btnDodaj.Text = "Dodaj";
             this.btnDodaj.UseVisualStyleBackColor = true;
+            this.btnDodaj.Click += new System.EventHandler(this.btnDodaj_Click_1);
             // 
             // btnPromeni
             // 
@@ -144,6 +145,7 @@
             this.btnPromeni.TabIndex = 11;
             this.btnPromeni.Text = "Promeni";
             this.btnPromeni.UseVisualStyleBackColor = true;
+            this.btnPromeni.Click += new System.EventHandler(this.btnPromeni_Click_1);
             // 
             // btnObrisi
             // 
@@ -153,6 +155,7 @@
             this.btnObrisi.TabIndex = 12;
             this.btnObrisi.Text = "Obrisi";
             this.btnObrisi.UseVisualStyleBackColor = true;
+            this.btnObrisi.Click += new System.EventHandler(this.btnObrisi_Click_1);
             // 
             // btnPotvrdi
             // 
@@ -162,6 +165,7 @@
             this.btnPotvrdi.TabIndex = 13;
             this.btnPotvrdi.Text = "Potvrdi";
             this.btnPotvrdi.UseVisualStyleBackColor = true;
+            this.btnPotvrdi.Click += new System.EventHandler(this.btnPotvrdi_Click_1);
             // 
             // btnOdustani
             // 
@@ -171,6 +175,7 @@
             this.btnOdustani.TabIndex = 14;
             this.btnOdustani.Text = "Odustani";
             this.btnOdustani.UseVisualStyleBackColor = true;
+            this.btnOdustani.Click += new System.EventHandler(this.btnOdustani_Click_1);
             // 
             // dgStudenti
             // 
@@ -180,6 +185,7 @@
             this.dgStudenti.RowTemplate.Height = 25;
             this.dgStudenti.Size = new System.Drawing.Size(656, 264);
             this.dgStudenti.TabIndex = 15;
+            this.dgStudenti.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgStudenti_CellClick_1);
             // 
             // Form1
             // 

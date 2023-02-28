@@ -184,7 +184,7 @@ namespace Domaci5
         }
 
         // Obrada dogadjaja klika na dugme Dodaj
-        private void btnDodaj_Click(object sender, EventArgs e)
+        private void btnDodaj_Click_1(object sender, EventArgs e)
         {
             // Ponistava se unos u tekstualnim poljima
             ponistiUnosTxt();
@@ -200,8 +200,9 @@ namespace Domaci5
             akcija = "dodaj";
         }
 
+
         // Obrada dogadjaja klika na dugme Obrisi
-        private void btnObrisi_Click(object sender, EventArgs e)
+        private void btnObrisi_Click_1(object sender, EventArgs e)
         {
             // Provera da li je neki red selektovan za brisanje
             // Ukoliko nije, korisnik se obavestava porukom
@@ -235,7 +236,7 @@ namespace Domaci5
         }
 
         // Obrada dogadjaja klika na dugme Promeni
-        private void btnPromeni_Click(object sender, EventArgs e)
+        private void btnPromeni_Click_1(object sender, EventArgs e)
         {
             // Provera da li je neki red selektovan za promenu
             // Ukoliko nije, korisnik se obavestava porukom
@@ -259,7 +260,7 @@ namespace Domaci5
         }
 
         // Obrada dogadjaja klika na dugme Potvrdi
-        private void btnPotvrdi_Click(object sender, EventArgs e)
+        private void btnPotvrdi_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -324,7 +325,7 @@ namespace Domaci5
         }
 
         // Obrada dogadjaja klika na dugme Odustani
-        private void btnOdustani_Click(object sender, EventArgs e)
+        private void btnOdustani_Click_1(object sender, EventArgs e)
         {
             // Onemogucava se dalja promena sadrzaja u tekstualnim poljima
             txtDisabled();
@@ -336,7 +337,7 @@ namespace Domaci5
         }
 
         // Obrada dogadjaja klika na celiju u okviru DataGridView kontrole
-        private void dgStudenti_CellClick(object sender,
+        private void dgStudenti_CellClick_1(object sender,
             DataGridViewCellEventArgs e)
         {
             // Ukoliko postoji red na koji je kliknuto
