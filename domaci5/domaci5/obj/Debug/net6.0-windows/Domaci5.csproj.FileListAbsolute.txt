@@ -15,3 +15,10 @@ C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci5\Domaci5\obj\Debug\net6.0-wind
 C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci5\Domaci5\obj\Debug\net6.0-windows\Domaci5.pdb
 C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci5\Domaci5\obj\Debug\net6.0-windows\Domaci5.genruntimeconfig.cache
 C:\Users\L\source\repos\Levnaic\domaci-SI1\Domaci5\Domaci5\obj\Debug\net6.0-windows\ref\Domaci5.dll
+C:\Users\L\source\repos\Levnaic\domaci-SI1\domaci5\Domaci5\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\L\source\repos\Levnaic\domaci-SI1\domaci5\Domaci5\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\L\source\repos\Levnaic\domaci-SI1\domaci5\Domaci5\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\L\source\repos\Levnaic\domaci-SI1\domaci5\Domaci5\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\L\source\repos\Levnaic\domaci-SI1\domaci5\Domaci5\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\L\source\repos\Levnaic\domaci-SI1\domaci5\Domaci5\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\L\source\repos\Levnaic\domaci-SI1\domaci5\Domaci5\obj\Debug\net6.0-windows\Domaci5.csproj.CopyComplete

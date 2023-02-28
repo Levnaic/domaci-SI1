@@ -102,7 +102,7 @@ namespace Domaci5
             }
         }
 
-        private string _connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\StudentDB.mdf;Integrated Security=True";
+        private string _connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\L\\source\\repos\\Levnaic\\domaci-SI1\\domaci5\\domaci5\\bin\\Debug\\StudentDB.mdf;Integrated Security=True;Connect Timeout=30";
 
         public void dodajStudenta()
         {
