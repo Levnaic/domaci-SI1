@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TANnWfFdHJCJxDwpppNgiwL90BkMsUyRjhmoMOOeQquKvSOO2EVtriKkSA/w2KrzQ5ryfq55FgkOi3jKbwn7LQ==",
+  "dgSpecHash": "Tp6xZa3wLrUosQCPqJyscm0l4OSEnCookjdLdyyOtabwaN9anMyoTbbOpPYsOBxJXwtxVZ7cGRjItrPHIr2lwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\L\\source\\repos\\Levnaic\\domaci-SI1\\Domaci5\\Domaci5\\Domaci5.csproj",
+  "projectFilePath": "C:\\Users\\L\\source\\repos\\Levnaic\\domaci-SI1\\domaci5\\Domaci5\\Domaci5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\L\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\L\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
