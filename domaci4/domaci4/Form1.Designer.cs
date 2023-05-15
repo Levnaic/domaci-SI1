@@ -107,12 +107,13 @@
             // 
             // btnDodaj
             // 
-            this.btnDodaj.Location = new System.Drawing.Point(38, 194);
+            this.btnDodaj.Location = new System.Drawing.Point(250, 185);
             this.btnDodaj.Name = "btnDodaj";
             this.btnDodaj.Size = new System.Drawing.Size(63, 30);
             this.btnDodaj.TabIndex = 8;
             this.btnDodaj.Text = "Unos";
             this.btnDodaj.UseVisualStyleBackColor = true;
+            this.btnDodaj.Click += new System.EventHandler(this.btnDodaj_Click);
             // 
             // dgProfesori
             // 
