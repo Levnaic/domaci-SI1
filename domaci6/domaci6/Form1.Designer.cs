@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,17 +39,17 @@
             this.btnObrisi = new System.Windows.Forms.Button();
             this.btnPotvrdi = new System.Windows.Forms.Button();
             this.btnOdustani = new System.Windows.Forms.Button();
+            this.dgPredmeti = new System.Windows.Forms.DataGridView();
+            this.mnIzvestajPredmeti = new System.Windows.Forms.MenuStrip();
+            this.mnIzvestaj = new System.Windows.Forms.ToolStripMenuItem();
+            ((System.ComponentModel.ISupportInitialize)(this.dgPredmeti)).BeginInit();
+            this.mnIzvestajPredmeti.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(147, 72);
+            this.label1.Location = new System.Drawing.Point(251, 156);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 15);
             this.label1.TabIndex = 1;
@@ -60,7 +58,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(147, 101);
+            this.label2.Location = new System.Drawing.Point(251, 185);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 15);
             this.label2.TabIndex = 2;
@@ -69,7 +67,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(147, 130);
+            this.label3.Location = new System.Drawing.Point(251, 214);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 15);
             this.label3.TabIndex = 3;
@@ -77,28 +75,28 @@
             // 
             // txtImePredmeta
             // 
-            this.txtImePredmeta.Location = new System.Drawing.Point(234, 69);
+            this.txtImePredmeta.Location = new System.Drawing.Point(338, 153);
             this.txtImePredmeta.Name = "txtImePredmeta";
             this.txtImePredmeta.Size = new System.Drawing.Size(188, 23);
             this.txtImePredmeta.TabIndex = 4;
             // 
             // txtBrojCasova
             // 
-            this.txtBrojCasova.Location = new System.Drawing.Point(234, 98);
+            this.txtBrojCasova.Location = new System.Drawing.Point(338, 182);
             this.txtBrojCasova.Name = "txtBrojCasova";
             this.txtBrojCasova.Size = new System.Drawing.Size(188, 23);
             this.txtBrojCasova.TabIndex = 5;
             // 
             // txtImeProfesora
             // 
-            this.txtImeProfesora.Location = new System.Drawing.Point(233, 127);
+            this.txtImeProfesora.Location = new System.Drawing.Point(337, 211);
             this.txtImeProfesora.Name = "txtImeProfesora";
             this.txtImeProfesora.Size = new System.Drawing.Size(189, 23);
             this.txtImeProfesora.TabIndex = 6;
             // 
             // btnDodaj
             // 
-            this.btnDodaj.Location = new System.Drawing.Point(99, 181);
+            this.btnDodaj.Location = new System.Drawing.Point(203, 265);
             this.btnDodaj.Name = "btnDodaj";
             this.btnDodaj.Size = new System.Drawing.Size(75, 23);
             this.btnDodaj.TabIndex = 7;
@@ -107,7 +105,7 @@
             // 
             // btnPromeni
             // 
-            this.btnPromeni.Location = new System.Drawing.Point(180, 181);
+            this.btnPromeni.Location = new System.Drawing.Point(284, 265);
             this.btnPromeni.Name = "btnPromeni";
             this.btnPromeni.Size = new System.Drawing.Size(75, 23);
             this.btnPromeni.TabIndex = 8;
@@ -116,7 +114,7 @@
             // 
             // btnObrisi
             // 
-            this.btnObrisi.Location = new System.Drawing.Point(261, 181);
+            this.btnObrisi.Location = new System.Drawing.Point(365, 265);
             this.btnObrisi.Name = "btnObrisi";
             this.btnObrisi.Size = new System.Drawing.Size(75, 23);
             this.btnObrisi.TabIndex = 9;
@@ -125,7 +123,7 @@
             // 
             // btnPotvrdi
             // 
-            this.btnPotvrdi.Location = new System.Drawing.Point(342, 181);
+            this.btnPotvrdi.Location = new System.Drawing.Point(446, 265);
             this.btnPotvrdi.Name = "btnPotvrdi";
             this.btnPotvrdi.Size = new System.Drawing.Size(75, 23);
             this.btnPotvrdi.TabIndex = 10;
@@ -134,18 +132,44 @@
             // 
             // btnOdustani
             // 
-            this.btnOdustani.Location = new System.Drawing.Point(423, 181);
+            this.btnOdustani.Location = new System.Drawing.Point(527, 265);
             this.btnOdustani.Name = "btnOdustani";
             this.btnOdustani.Size = new System.Drawing.Size(75, 23);
             this.btnOdustani.TabIndex = 11;
             this.btnOdustani.Text = "Odustani";
             this.btnOdustani.UseVisualStyleBackColor = true;
             // 
+            // dgPredmeti
+            // 
+            this.dgPredmeti.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgPredmeti.Location = new System.Drawing.Point(12, 319);
+            this.dgPredmeti.Name = "dgPredmeti";
+            this.dgPredmeti.RowTemplate.Height = 25;
+            this.dgPredmeti.Size = new System.Drawing.Size(776, 246);
+            this.dgPredmeti.TabIndex = 12;
+            // 
+            // mnIzvestajPredmeti
+            // 
+            this.mnIzvestajPredmeti.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnIzvestaj});
+            this.mnIzvestajPredmeti.Location = new System.Drawing.Point(0, 0);
+            this.mnIzvestajPredmeti.Name = "mnIzvestajPredmeti";
+            this.mnIzvestajPredmeti.Size = new System.Drawing.Size(800, 24);
+            this.mnIzvestajPredmeti.TabIndex = 13;
+            this.mnIzvestajPredmeti.Text = "meni";
+            // 
+            // mnIzvestaj
+            // 
+            this.mnIzvestaj.Name = "mnIzvestaj";
+            this.mnIzvestaj.Size = new System.Drawing.Size(57, 20);
+            this.mnIzvestaj.Text = "Izvestaj";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 577);
+            this.Controls.Add(this.dgPredmeti);
             this.Controls.Add(this.btnOdustani);
             this.Controls.Add(this.btnPotvrdi);
             this.Controls.Add(this.btnObrisi);
@@ -157,16 +181,18 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.mnIzvestajPredmeti);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dgPredmeti)).EndInit();
+            this.mnIzvestajPredmeti.ResumeLayout(false);
+            this.mnIzvestajPredmeti.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private ContextMenuStrip contextMenuStrip1;
         private Label label1;
         private Label label2;
         private Label label3;
@@ -178,5 +204,8 @@
         private Button btnObrisi;
         private Button btnPotvrdi;
         private Button btnOdustani;
+        private DataGridView dgPredmeti;
+        private MenuStrip mnIzvestajPredmeti;
+        private ToolStripMenuItem mnIzvestaj;
     }
 }
