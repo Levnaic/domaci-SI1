@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data.SqlClient;
 
 namespace domaci6
@@ -92,7 +89,45 @@ namespace domaci6
 
         public void obrisiPredmet()
         {
-            //OVDE SI STAO
+            string deleteSql =
+                "DELETE FROM T_PREDMET WHERE PredmetId = @PredmetId;";
+            
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                SqlCommand command = connection.CreateCommand();
+                command.CommandText = deleteSql;
+                command.Parameters.Add(new SqlParameter("@ProfesorId", ID));
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
+
+        public List<Predmet> ucitajPredmete()
+        {
+            List<Predmet> predmeti = new List<Predmet>();
+            string queryString =
+                "SELECT * FROM T_PREDMET;";
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                SqlCommand command = connection.CreateCommand();
+                command.CommandText = queryString;
+                connection.Open();
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    Predmet pred;
+                    while (reader.Read())
+                    {
+                        pred = new Predmet();
+                        pred.ID = Int32.Parse(reader["PredmetId"].ToString());
+                        pred.ImePredmeta = reader["ImePredmeta"].ToString();
+                        pred.BrojCasova = Int32.Parse(reader["BrojCasova"].ToString());
+                        pred.Profesor = reader["Profesor"].ToString();
+                        predmeti.Add(pred);
+                    }
+                }
+            }
+
+            return predmeti;
         }
 
 
